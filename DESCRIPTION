@@ -14,7 +14,9 @@ LazyData: true
 Imports:
     synapser,
     tibble,
-    readr
+    readr,
+    glue,
+    purrr
 Suggests: 
     testthat (>= 2.1.0)
 RoxygenNote: 7.0.2
