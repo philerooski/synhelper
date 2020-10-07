@@ -8,6 +8,8 @@ synGetTable(
   synapse_id,
   columns = list(),
   conditionals = list(),
+  limit = NULL,
+  offset = NULL,
   as_query_str = FALSE,
   as_data_frame = TRUE
 )
@@ -18,6 +20,10 @@ synGetTable(
 \item{columns}{A character vector of columns to download. Defaults to all columns.}
 
 \item{conditionals}{A character vector of SQL conditionals.}
+
+\item{limit}{Upper limit on the number of rows returned.}
+
+\item{offset}{Number of rows to offset in the SQL query.}
 
 \item{as_query_str}{If TRUE, returns the query string without executing the query.
 Defaults to FALSE.}

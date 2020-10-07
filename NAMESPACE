@@ -3,3 +3,4 @@
 export(evaluationQuery)
 export(synGetFile)
 export(synGetTable)
+export(synGetTableFiles)
